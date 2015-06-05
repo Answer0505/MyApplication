@@ -9,6 +9,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 
 
@@ -16,11 +17,13 @@ public class FirstActivity extends ActionBarActivity {
     private Button deleteButton;
     private Button waitButton;
     private Button nextButton;
+    private Button listButton;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        supportRequestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
         setContentView(R.layout.activity_first);
         deleteButton = (Button) findViewById(R.id.delete);
         deleteButton.setOnClickListener(new View.OnClickListener() {
@@ -72,8 +75,24 @@ public class FirstActivity extends ActionBarActivity {
             public void onClick(View v) {
                 switch (v.getId()) {
                     case R.id.next:
+                        Intent intent = new Intent(FirstActivity.this, SecondActivity.class);
+                        startActivity(intent);
+                }
+            }
+        });
+
+        listButton = (Button) findViewById(R.id.list);
+        listButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                switch (v.getId()) {
+
+                    case R.id.list:
                         Intent intent = new Intent(FirstActivity.this, ListviewActivity.class);
                         startActivity(intent);
+                        break;
+                    default:
+                        break;
                 }
             }
         });

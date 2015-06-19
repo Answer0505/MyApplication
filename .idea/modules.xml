@@ -3,7 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragmentDemo/fragmentDemo.iml" filepath="$PROJECT_DIR$/fragmentDemo/fragmentDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gDCatalog/gDCatalog.iml" filepath="$PROJECT_DIR$/gDCatalog/gDCatalog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greenDroid/greenDroid.iml" filepath="$PROJECT_DIR$/greenDroid/greenDroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greenDroidGoogleAPIs/greenDroidGoogleAPIs.iml" filepath="$PROJECT_DIR$/greenDroidGoogleAPIs/greenDroidGoogleAPIs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication2/myapplication2.iml" filepath="$PROJECT_DIR$/myapplication2/myapplication2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/practice.iml" filepath="$PROJECT_DIR$/practice/practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/traveldating/traveldating.iml" filepath="$PROJECT_DIR$/traveldating/traveldating.iml" />
     </modules>
   </component>
 </project>

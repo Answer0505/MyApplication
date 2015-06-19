@@ -9,10 +9,18 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 
 public class TitleLayout extends LinearLayout {
-    public TitleLayout(Context context, AttributeSet attrs) {
-        super(context, attrs);
+    public TitleLayout(Context context, AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
+
+    }
+
+
+    public TitleLayout(Context context, AttributeSet arrts) {
+        super(context, arrts);
+
 
         LayoutInflater.from(context).inflate(R.layout.activity_base, this);
+
 
         Button titleback = (Button) findViewById(R.id.back);
         Button titlenext = (Button) findViewById(R.id.nextpage);
@@ -22,7 +30,13 @@ public class TitleLayout extends LinearLayout {
                 ((Activity) (getContext())).finish();
             }
         });
-    }
 
+        titlenext.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+    }
 
 }

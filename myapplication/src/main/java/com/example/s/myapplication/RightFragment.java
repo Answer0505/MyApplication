@@ -10,11 +10,11 @@ import android.view.ViewGroup;
 public class RightFragment extends Fragment {
 
 
-    public View onCreatView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceSate) {
         View view = inflater.inflate(R.layout.right_fragment, container, false);
+
         return view;
     }
-
 
 }
 

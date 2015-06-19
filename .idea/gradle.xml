@@ -9,7 +9,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/fragmentDemo" />
+            <option value="$PROJECT_DIR$/gDCatalog" />
+            <option value="$PROJECT_DIR$/greenDroid" />
+            <option value="$PROJECT_DIR$/greenDroidGoogleAPIs" />
+            <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/myapplication2" />
+            <option value="$PROJECT_DIR$/practice" />
+            <option value="$PROJECT_DIR$/traveldating" />
           </set>
         </option>
       </GradleProjectSettings>

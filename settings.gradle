@@ -1,1 +1,5 @@
-include ':app'
+include ':practice', ':traveldating', ':traveldating', ':myapplication', ':myapplication2', ':traveldating', ':'
+include ':fragmentDemo'
+include ':gDCatalog'
+include ':greenDroid'
+include ':greenDroidGoogleAPIs'

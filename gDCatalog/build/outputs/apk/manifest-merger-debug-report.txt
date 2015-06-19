@@ -1,0 +1,124 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:20:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:21:5
+	package
+		ADDED from AndroidManifest.xml:22:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:24:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:23:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:26:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:26:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:27:5
+	android:name
+		ADDED from AndroidManifest.xml:27:22
+application
+ADDED from AndroidManifest.xml:29:5
+	android:label
+		ADDED from AndroidManifest.xml:31:9
+	android:icon
+		ADDED from AndroidManifest.xml:30:9
+	android:theme
+		ADDED from AndroidManifest.xml:32:9
+	android:name
+		ADDED from AndroidManifest.xml:33:9
+uses-library#com.google.android.maps
+ADDED from AndroidManifest.xml:35:9
+	android:name
+		ADDED from AndroidManifest.xml:35:23
+activity#com.cyrilmottier.android.gdcatalog.CatalogActivity
+ADDED from AndroidManifest.xml:37:9
+	android:name
+		ADDED from AndroidManifest.xml:37:19
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:38:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:39:17
+	android:name
+		ADDED from AndroidManifest.xml:39:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:40:17
+	android:name
+		ADDED from AndroidManifest.xml:40:27
+activity#com.cyrilmottier.android.gdcatalog.InfoTabActivity
+ADDED from AndroidManifest.xml:44:9
+	android:label
+		ADDED from AndroidManifest.xml:46:11
+	android:name
+		ADDED from AndroidManifest.xml:45:10
+activity#com.cyrilmottier.android.gdcatalog.WebContentActivity
+ADDED from AndroidManifest.xml:47:9
+	android:name
+		ADDED from AndroidManifest.xml:47:19
+activity#com.cyrilmottier.android.gdcatalog.AboutActivity
+ADDED from AndroidManifest.xml:48:9
+	android:name
+		ADDED from AndroidManifest.xml:48:19
+activity#com.cyrilmottier.android.gdcatalog.BasicItemActivity
+ADDED from AndroidManifest.xml:51:9
+	android:name
+		ADDED from AndroidManifest.xml:51:19
+activity#com.cyrilmottier.android.gdcatalog.XmlItemActivity
+ADDED from AndroidManifest.xml:52:9
+	android:name
+		ADDED from AndroidManifest.xml:52:19
+activity#com.cyrilmottier.android.gdcatalog.TweakedItemViewActivity
+ADDED from AndroidManifest.xml:54:9
+	android:theme
+		ADDED from AndroidManifest.xml:56:13
+	android:name
+		ADDED from AndroidManifest.xml:55:13
+activity#com.cyrilmottier.android.gdcatalog.SegmentedActivity
+ADDED from AndroidManifest.xml:58:9
+	android:name
+		ADDED from AndroidManifest.xml:58:19
+activity#com.cyrilmottier.android.gdcatalog.ActionBarActivity
+ADDED from AndroidManifest.xml:59:3
+	android:name
+		ADDED from AndroidManifest.xml:59:13
+activity#com.cyrilmottier.android.gdcatalog.TabbedActionBarActivity
+ADDED from AndroidManifest.xml:60:9
+	android:name
+		ADDED from AndroidManifest.xml:60:19
+activity#com.cyrilmottier.android.gdcatalog.TabbedActionBarActivity$FakeActivity
+ADDED from AndroidManifest.xml:61:9
+	android:name
+		ADDED from AndroidManifest.xml:61:19
+activity#com.cyrilmottier.android.gdcatalog.QuickActionActivity
+ADDED from AndroidManifest.xml:63:9
+	android:name
+		ADDED from AndroidManifest.xml:63:19
+activity#com.cyrilmottier.android.gdcatalog.SimpleAsyncImageViewActivity
+ADDED from AndroidManifest.xml:64:9
+	android:name
+		ADDED from AndroidManifest.xml:64:19
+activity#com.cyrilmottier.android.gdcatalog.AsyncImageViewListActivity
+ADDED from AndroidManifest.xml:65:3
+	android:name
+		ADDED from AndroidManifest.xml:65:13
+activity#com.cyrilmottier.android.gdcatalog.MapPinMapActivity
+ADDED from AndroidManifest.xml:67:3
+	android:name
+		ADDED from AndroidManifest.xml:67:13
+activity#com.cyrilmottier.android.gdcatalog.PagedScrollViewActivity
+ADDED from AndroidManifest.xml:68:3
+	android:name
+		ADDED from AndroidManifest.xml:68:13
+activity#com.cyrilmottier.android.gdcatalog.PagedViewActivity
+ADDED from AndroidManifest.xml:69:3
+	android:name
+		ADDED from AndroidManifest.xml:69:13

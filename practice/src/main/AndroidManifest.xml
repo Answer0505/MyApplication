@@ -21,7 +21,7 @@
             android:label="@string/title_activity_first" >
         </activity>
         <activity
-            android:name=".ListviewActivity"
+            android:name="com.example.s.practice.ListviewActivity"
             android:label="@string/title_activity_listview" >
         </activity>
         <activity
